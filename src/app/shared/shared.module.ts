@@ -4,6 +4,7 @@ import { ModalComponent } from './modal/modal.component';
 import { ModalService } from '../services/modal.service';
 import { TabContainerComponent } from './tab-container/tab-container.component';
 import { TabComponent } from './tab/tab.component';
+import { InputComponent } from './input/input.component';
 
 
 
@@ -11,7 +12,8 @@ import { TabComponent } from './tab/tab.component';
   declarations: [
     ModalComponent,
     TabContainerComponent,
-    TabComponent
+    TabComponent,
+    InputComponent
   ],
   imports: [
     CommonModule
@@ -19,7 +21,8 @@ import { TabComponent } from './tab/tab.component';
   exports: [
     ModalComponent,
     TabContainerComponent,
-    TabComponent
+    TabComponent,
+    InputComponent
   ],
   // providers: [
   //   ModalService
